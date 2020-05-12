@@ -124,6 +124,7 @@ position: absolute;
     
 }
 
+
 .skillsgrid {
     
     position: relative;
@@ -1247,7 +1248,9 @@ a.github:hover{
         border-radius: 5px;
         margin: 19px 0px;
     }
+    
 }
+
 
 @media (max-width: 768px) {
     .banner-container {
@@ -1258,24 +1261,6 @@ a.github:hover{
         max-width: 100%;
     }
 
-    /* .da-slider {
-        height: 380px;
-        width: 100%;
-        min-width: initial;
-        margin: 0px !important;
-    }
-.da-slide h2 {
-        font-size: 40px;
-        text-align: center;
-        width: initial;
-        top: 10px;
-    }
-
-    .da-slide p {
-        width: 65%;
-        top: 65px;
-        height: 50px;
-    } */
     .header .navbar-nav > li > a {
         padding: 25px 12px;
     }
@@ -1303,7 +1288,35 @@ a.github:hover{
 	}
 	#timeline { 
 	margin:0px 12px;
-	}
+    }
+    
+    .skillscard{
+       
+        width: 100%;
+        
+    }
+    .skillswrapper{
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    .educationwrapper{
+        
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 26px 26px;
+        
+    }
+
+    .educationcard{
+        
+        display:flex;
+        
+    }
+    .ms{
+            
+        line-height: 1.5;
+    }
 }
 
 @media (max-width:760px) {
